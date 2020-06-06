@@ -3,7 +3,7 @@ const firstNames = ["Hope", "Launa", "Katherine", "Walker", "Moses", "Tayna", "R
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 const getRandomName = () => 
-  'Your word to act out is ' + `${firstNames[getRandomNumber(firstNames.length)]}`;
+  'Your word to act out is "' + `${firstNames[getRandomNumber(firstNames.length)]}` + '"';
 
 const setRandomName = () => {
   document.getElementById('random-name').innerText = getRandomName();
