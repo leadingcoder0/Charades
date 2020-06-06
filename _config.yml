@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
-name: luaphacim's site
+name: Charades Generator
 title: null
+github:
+  is_project_page: false
