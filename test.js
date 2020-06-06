@@ -1,9 +1,9 @@
-const firstNames = ["Hope", "Launa", "Katherine", "Walker", "Moses", "Tayna", "Rosia", "Yahaira", "Tommy", "Elwanda", "Clorinda", "Sheron", "Kayla", "Clementina", "Rene", "Rex", "Kathy", "Latoya", "Shirleen", "Shoshana"];
+const firstNames = ["making a campfire", "skiing", "cooking", "cleaning", "eating", "tying a knot", "reading", "tenting", "hiking", "drinking", "signing off requirements", "running", "playing football", "playing basketball", "sleeping", "patrol yelling", "playing cards"];
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 const getRandomName = () => 
-  'Your word to act out is "' + `${firstNames[getRandomNumber(firstNames.length)]}` + '"';
+  'Your phrase to act out is "' + `${firstNames[getRandomNumber(firstNames.length)]}` + '"';
 
 const setRandomName = () => {
   document.getElementById('random-name').innerText = getRandomName();
