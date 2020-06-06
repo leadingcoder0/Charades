@@ -1,2 +1,4 @@
 I just want to create a button.
-<button name="button" onclick="http://www.google.com">Click me</button>
+<h1>Generate a Random word</h1>
+<div id="random-name"></div>
+button id="generate">Generate Another</button>
