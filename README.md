@@ -3,5 +3,5 @@ I just want to create a button.
 <body>
 <div id="random-name"></div>
 <button id="generate">Generate Another</button>
-<script src="script.js"></script>
+<script src="test.js"></script>
 </body>
