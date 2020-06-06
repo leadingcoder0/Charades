@@ -5,7 +5,7 @@ const secondNames = ["Chauncey", "Houchins", "Lama", "Frasca", "Houston", "Ake",
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 const getRandomName = () => 
-  `${firstNames[getRandomNumber(firstNames.length)]} ${secondNames[getRandomNumber(secondNames.length)]}`;
+  `${firstNames[getRandomNumber(firstNames.length)]}`;
 
 const setRandomName = () => {
   document.getElementById('random-name').innerText = getRandomName();
@@ -13,6 +13,3 @@ const setRandomName = () => {
 
 document.getElementById('generate')
   .addEventListener('click', setRandomName);
-
-setRandomName();
-
