@@ -6,7 +6,9 @@ const firstNames = ["making a campfire", "skiing", "cooking", "cleaning", "eatin
                     "matches", "tongs", "coronavirus", "gorilla", "race car", "parachuting", "rolling a neckerchief",
                     "wrench", "piano", "muscle", "brain", "shoulder", "goggles", "lipstick", "zipper",
                     "ponder", "fishing", "axe", "saw", "pocket", "scout handbook", "whistle", "doctor",
-                    "hug", "snowboarding", "fork", "compass", "directions", "smoke"];
+                    "hug", "snowboarding", "fork", "compass", "directions", "smoke", "cutting", "surprised",
+                    "drum", "lion dancing", "applauding", "horse riding", "making smores", "playing cards",
+                    "drinking hot chocolate", "rolling up a sleeping bag", "guitar", "snake"];
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
