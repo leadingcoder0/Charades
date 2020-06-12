@@ -1,4 +1,8 @@
-const firstNames = ["making a campfire", "skiing", "cooking", "cleaning", "eating", "tying a knot", "reading", "tenting", "hiking", "drinking", "signing off requirements", "running", "playing football", "playing basketball", "sleeping", "patrol yelling", "playing cards"];
+const firstNames = ["making a campfire", "skiing", "cooking", "cleaning", "eating", "tying a knot",
+                    "reading", "tenting", "hiking", "drinking", "signing off requirements", "running",
+                    "playing football", "playing basketball", "sleeping", "patrol yelling", "playing cards",
+                    "twist", "kneel", "volleyball", "shower", "fusing rope", "performing cpr", "heimlich maneuver",
+                    "flag ceremony", "scribble", "electrical outlet", "clown", "whisk", "crocodile"];
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
